@@ -1,0 +1,226 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+body {
+    margin: 0 auto;
+    /* height: 100vh; */
+    /* overflow-y: hidden !important; */
+  
+}
+
+.lasty {
+    color: white;
+}
+
+.gg {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    
+    border-bottom: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-left-radius: 3px;
+}
+
+
+
+.dark {
+    font-weight: 500;
+}
+
+#myNav {
+    background-color: black;
+    position: fixed;
+    width: 100%  !important;
+    top: 0%;
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 760px) {
+    .action {
+        font-size: small;
+        
+      
+    }
+
+    .punch {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .bgimg {
+        /* width: 100%; */
+        /* height: 100%; */
+        /* background-image: url('001.jpg'); */
+        /* background: -moz-linear-gradient(top,  rgba(150, 192, 241, 0.425) 0%, rgba(119, 191, 36, 0.473) 25%, rgba(224, 117, 35, 0.452) 50%, rgba(242, 38, 41, 0.459) 75%, rgba(130, 100, 70, 0.466) 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30, 87, 153, 0.5)), color-stop(25%,rgba(119, 191, 36, 0.479)), color-stop(50%,rgba(224, 117, 35, 0.445)), color-stop(75%,rgba(242, 38, 41, 0.486)), color-stop(100%,rgba(130, 100, 70, 0.479)));
+        background: -webkit-linear-gradient(top,  rgba(30, 87, 153, 0.486) 0%,rgba(119, 191, 36, 0.5) 25%,rgba(224, 117, 35, 0.479) 50%,rgba(242, 38, 41, 0.507) 75%,rgba(130, 100, 70, 0.486) 100%);   
+        background: linear-gradient(to bottom,  rgba(30, 87, 153, 0.514) 0%,rgba(119, 191, 36, 0.479) 25%,rgba(224, 117, 35, 0.466) 50%,rgba(242, 38, 41, 0.507) 75%,rgba(130, 100, 70, 0.493) 100%);
+        background-size: 100% 400%;
+        background-position:0 0;
+     */
+        -webkit-animation: animateGradient 5s ease 1;
+        -moz-animation:    animateGradient 5s ease 1;
+        animation:         animateGradient 5s ease 1;
+        -webkit-animation-delay: 3s;
+        -moz-animation-delay:    3s;
+        animation-delay:         3s;
+    }
+    
+    
+    @-webkit-keyframes animateGradient {
+        20%   {background-position: 0 0;}
+        50%  {background-position: 0 100%;}
+        /* 100% {background-position: 0 0;} */
+    }
+    @-moz-keyframes animateGradient {
+        20%   {background-position: 0 0;}
+        50%  {background-position: 0 100%;}
+        /* 100% {background-position: 0 0;} */
+    }
+    
+    @keyframes animateGradient { 
+        20%   {background-position: 0 0;}
+        50%  {background-position: 0 100%;}
+        /* 100% {background-position: 0 0;} */
+    }
+    
+
+
+
+
+
+
+}
+
+
+
+
+.small {
+    font-size: small;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.till {
+    color: white !important;
+}
+
+.till:hover, .till-slide:active{
+    color: black !important;
+}
+  
+.action1:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.action1:hover, .action1-slide:active{
+    background-color: white !important;
+    color: black !important;
+}
+
+    
+.action3:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.action3:hover, .action3-slide:active{
+    /* font-weight: 300; */
+    background-color: white !important;
+    color: black !important;
+}
+
+.action2:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.action2:hover, .action2-slide:active{
+    /* font-weight: 300; */
+    background-color: white !important;
+    color: black !important;
+}
+
+  
+.action:hover {
+    background-color: white !important;
+    color: black !important;
+}
+  
+.action:hover, .action-slide:active{
+    background-color: white !important;
+    color: black !important;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 761px) {
+/* Heart animation begins here */
+    .bgimg {
+        /* width: 100%; */
+        /* height: 100%; */
+        /* background-image: url('001.jpg'); */
+        /* background: -moz-linear-gradient(top,  rgba(150, 192, 241, 0.425) 0%, rgba(119, 191, 36, 0.473) 25%, rgba(224, 117, 35, 0.452) 50%, rgba(242, 38, 41, 0.459) 75%, rgba(130, 100, 70, 0.466) 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30, 87, 153, 0.5)), color-stop(25%,rgba(119, 191, 36, 0.479)), color-stop(50%,rgba(224, 117, 35, 0.445)), color-stop(75%,rgba(242, 38, 41, 0.486)), color-stop(100%,rgba(130, 100, 70, 0.479)));
+        background: -webkit-linear-gradient(top,  rgba(30, 87, 153, 0.486) 0%,rgba(119, 191, 36, 0.5) 25%,rgba(224, 117, 35, 0.479) 50%,rgba(242, 38, 41, 0.507) 75%,rgba(130, 100, 70, 0.486) 100%);   
+        background: linear-gradient(to bottom,  rgba(30, 87, 153, 0.514) 0%,rgba(119, 191, 36, 0.479) 25%,rgba(224, 117, 35, 0.466) 50%,rgba(242, 38, 41, 0.507) 75%,rgba(130, 100, 70, 0.493) 100%);
+        background-size: 100% 400%;
+        background-position:0 0; */
+
+        -webkit-animation: animateGradient 5s ease 1;
+        -moz-animation:    animateGradient 5s ease 1;
+        animation:         animateGradient 5s ease 1;
+        -webkit-animation-delay: 2s;
+        -moz-animation-delay:    2s;
+        animation-delay:         2s;
+    }
+
+
+    @-webkit-keyframes animateGradient {
+        0%   {background-position: 0 0;}
+        50%  {background-position: 0 100%;}
+        /* 100% {background-position: 0 0;} */
+    }
+    @-moz-keyframes animateGradient {
+        0%   {background-position: 0 0;}
+        50%  {background-position: 0 100%;}
+        /* 100% {background-position: 0 0;} */
+    }
+
+    @keyframes animateGradient { 
+        0%   {background-position: 0 0;}
+        50%  {background-position: 0 100%;}
+        /* 100% {background-position: 0 0;} */
+    }
+
+    .punch {
+        font-weight: 500;
+        font-size: 2.3rem;
+        line-height: 52px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
