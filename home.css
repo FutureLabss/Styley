@@ -66,9 +66,9 @@ body {
         -webkit-animation: animateGradient 5s ease 1;
         -moz-animation:    animateGradient 5s ease 1;
         animation:         animateGradient 5s ease 1;
-        -webkit-animation-delay: 3s;
-        -moz-animation-delay:    3s;
-        animation-delay:         3s;
+        -webkit-animation-delay: 4s;
+        -moz-animation-delay:    4s;
+        animation-delay:         4s;
     }
     
     
@@ -183,9 +183,9 @@ a {
         -webkit-animation: animateGradient 5s ease 1;
         -moz-animation:    animateGradient 5s ease 1;
         animation:         animateGradient 5s ease 1;
-        -webkit-animation-delay: 2s;
-        -moz-animation-delay:    2s;
-        animation-delay:         2s;
+        -webkit-animation-delay: 4s;
+        -moz-animation-delay:    4s;
+        animation-delay:         4s;
     }
 
 
