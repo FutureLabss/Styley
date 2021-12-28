@@ -47,9 +47,9 @@ body {
       
     }
 
-    .middle {
-        width: 95vw;
-    }
+    
+
+    
 
     .punch {
         font-size: 18px;
@@ -211,6 +211,19 @@ a {
     }
 
     
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 430px) {
+    
+
+    .middle {
+        width: 95vw;
+    }
+
+  
 }
 
 

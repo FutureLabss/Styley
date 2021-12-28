@@ -275,23 +275,7 @@
 
 
 
-/* Zoom begins here */
 
-/* input[type=checkbox] {
-    display: none;
-  }
-  
-  img {
-    margin: 100px;
-    transition: transform 0.25s ease;
-    cursor: zoom-in;
-  }
-  
-  input[type=checkbox]:checked ~ label > img {
-    transform: scale(2);
-    cursor: zoom-out;
-  }
-   */
 
 
 /* Autocomplete begins here */
@@ -355,36 +339,7 @@
 
 
 
-  /* for zooming images */
-  /* img[target]:hover, img[target]-slide:active {
-    -ms-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-
-    border-color: yellow;
-    border: 3px solid;
-    
-    height: 100vh;
-  } */
-
-   /* for zooming images */
-
-
-  /* for zooming images */
-  /* img[target]:-slide:active {
-
-    -ms-transform: scale(1.2) !important;
-    -webkit-transform: scale(1.2) !important;
-    transform: scale(1.2) !important;
-    
-    
-    
-    border-color: yellow !important;
-    border: 3px solid;
-    
-    
-    
-  } */
+  
 
   /* for zooming images */
  
