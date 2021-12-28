@@ -47,6 +47,10 @@ body {
       
     }
 
+    .middle {
+        width: 95vw;
+    }
+
     .punch {
         font-size: 18px;
         
