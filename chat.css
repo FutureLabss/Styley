@@ -74,6 +74,7 @@
     /* I changed here to max .. 800px*/
     width: 750;
     
+    
     background: rgb(253, 243, 203);
     text-align: center;
     overflow: auto;
@@ -96,6 +97,7 @@
     left: 0;
     scroll-behavior: smooth;
     hyphens: auto;
+    font-family: 'Courgette', cursive; font-family: 'Poppins', sans-serif !important;
 }
 
 .chat-container::-webkit-scrollbar {
@@ -236,6 +238,7 @@
     .full-chat-block {
         width: 100%;
         border-radius: 0px;
+        
     }
 
     .chat-bar-collapsible {
