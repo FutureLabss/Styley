@@ -140,19 +140,19 @@ function colorToggle() {
 
 
 // Change chatbox color
-var  toggleStatus = "on";
+var  togglerStatus = "on";
 
 function heartButton1() {
-  let theToggle = document.getElementById("chatty");
-  switch (toggleStatus) {
+  let Toggler = document.getElementById("chatty");
+  switch (togglerStatus) {
     case "on":
-      toggleStatus = "off";
-      theToggle.style.background  = "grey";
+      togglerStatus = "off";
+      Toggler.style.background  = "grey";
       // theToggle.style.color = "green";
       break;
     case "off":
-      toggleStatus = "on";
-      theToggle.style.background  = "rgb(253, 243, 203)";
+      togglerStatus = "on";
+      Toggler.style.background  = "rgb(253, 243, 203)";
       // theToggle.style.background  = "white";
       break;
   }
