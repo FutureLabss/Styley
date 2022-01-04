@@ -35,14 +35,37 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Hello. </br> I'm Editi, your shopping assistant. <br> Please, send a photo code."
-    document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
+    // let firstMessage = "Hello. </br> I'm Editi, your shopping assistant. <br> Please, send a photo code."
+    // document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();
 
     $("#chat-timestamp").append(time);
     document.getElementById("userInput").scrollIntoView(false);
+
 }
+
+
+// NEW CODE FOR DELAY: IF NOT NEEDED, TAKE IT OUT COMPLETELY & UNCOMMENT THE FIRST TWO LINES OF THE FUNCTION - firstBotMessage()
+function stuff() {
+    // let firstMessage = "Hello. </br> I'm Editi, your shopping assistant. <br> Please, send a photo code."
+    // document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
+
+    if (delay = 2000) {
+      document.getElementById("botStarterMessage").style.display = "block";
+    } else {
+      document.getElementById("botStarterMessage").style.display = "none";
+    }
+    
+    
+    
+  }
+  var delay = 2000;
+  setTimeout( stuff, delay )
+// ends here
+
+
+
 
 firstBotMessage();
 
@@ -124,16 +147,21 @@ var  toggleStatus = "on";
 
 function colorToggle() {
   let theToggle = document.getElementById("chat-button");
+  
+    
   switch (toggleStatus) {
     case "on":
       toggleStatus = "off";
     //   theToggle.style.color = "purple";
       theToggle.style.backgroundColor = "black";
+      
+      
       break;
     case "off":
       toggleStatus = "on";
     //   theToggle.style.color = "yellow";
       theToggle.style.background = "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('')";
+      
       break;
   }
 }
