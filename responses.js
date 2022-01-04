@@ -27,7 +27,7 @@ function getBotResponse(input) {
 
 
     } else {
-        return "&#x1F60E Oops! We couldn't match that. <br /> Confirm code & retry.";
+        return "&#x1F60E Oops! We couldn't match that. <br /> Please confirm code & retry.";
     }
 
     // if (input == "003") {
