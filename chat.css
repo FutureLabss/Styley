@@ -6,43 +6,6 @@
     
 }
 
-/* .click-zoom input[type=checkbox] {
-    display: none
-}
-
-.click-zoom img {
-    margin: 100px;
-    transition: transform 0.25s ease;
-    cursor: zoom-in
-}
-
-.click-zoom input[type=checkbox]:checked~img {
-    transform: scale(2);
-    cursor: zoom-out
-} */
-
-/* .full-chat-block img:hover {
-    -ms-transform: scale(1.1); 
-    -webkit-transform: scale(1.1); 
-    transform: scale(1.1);
-} */
-
-/* .full-chat-block img {
-    transition: transform .2s;
-} */
-
-/* .full-chat-block img:active {
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-} */
-
-/* .full-chat-block img:active {
-    
-    background-size: 80vh;
-    background-size: 80vw;
-
-} */
 
 
 .collapsible {
