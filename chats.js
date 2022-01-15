@@ -76,7 +76,12 @@ function getHardResponse(userText) {
     $("#chatbox").append(botHtml);
 
     document.getElementById("chat-bar-bottom").scrollIntoView(true);
+    
+    // the above line of code was formerly this line
+    // document.getElementById("chat-bar-bottom").scrollIntoView(true);
 }
+
+
 
 //Gets the text text from the input box and processes it
 function getResponse() {
