@@ -83,6 +83,10 @@ function getHardResponse(userText) {
 
 
 
+
+
+
+
 //Gets the text text from the input box and processes it
 function getResponse() {
     let userText = $("#textInput").val();
