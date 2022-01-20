@@ -10,9 +10,7 @@ body {
   
 }
 
-.lasty {
-    color: white;
-}
+
 
 .gg {
     text-decoration: none;
@@ -116,6 +114,23 @@ body {
 }
 
 .till {
+    color: inherit !important;
+    background-color: inherit !important;
+}
+
+
+.action1 {
+    color: white !important;
+    background-color: rgb(41, 43, 44) !important;
+}
+
+.action1:hover, .action1-slide:active {
+    color: black !important;
+    background-color: white !important;
+
+}
+
+/* .till {
     color: white !important;
 }
 
@@ -131,7 +146,7 @@ body {
 .action1:hover, .action1-slide:active{
     background-color: white !important;
     color: black !important;
-}
+} */
 
     
 .action3:hover {
@@ -140,7 +155,6 @@ body {
 }
 
 .action3:hover, .action3-slide:active{
-    /* font-weight: 300; */
     background-color: white !important;
     color: black !important;
 }

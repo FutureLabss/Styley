@@ -22,13 +22,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
-//<a href="#someOtherElementID"> Go to Other Element Smoothly </a>
 
-
-// Onload alert message
-// function myFunction() {
-//   alert("Use Google Chrome for best experience on Styley");
-// }
 
 // Hide onload modal onclick
 const targetDiv = document.getElementById("myModal");
