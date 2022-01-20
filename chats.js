@@ -138,8 +138,8 @@ $("#textInput").keypress(function (e) {
     }
 });
 
-// Toggle button text
 
+// Toggle button text
 function myFunction() {
   var x = document.getElementById("chat-button");
   if (x.innerHTML === "<strong>Close chat</strong>") {
