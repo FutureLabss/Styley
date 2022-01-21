@@ -231,6 +231,8 @@
         border: 2px solid white;
         border-radius: 10px;
     }
+
+
 }
 
 
@@ -357,8 +359,18 @@
     margin-left: 20px;
   }
 
-@media screen and (max-width:320px) {
-    
+
+
+
+@media screen and (max-width:768px) {
+
+   .userText {
+       font-size: 13px;
+    } 
+
+   .botText {
+       font-size: 13px;
+    } 
     
 
 }
