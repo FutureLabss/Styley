@@ -130,23 +130,7 @@ body {
 
 }
 
-/* .till {
-    color: white !important;
-}
 
-.till:hover, .till-slide:active{
-    color: black !important;
-}
-  
-.action1:hover {
-    background-color: white !important;
-    color: black !important;
-}
-
-.action1:hover, .action1-slide:active{
-    background-color: white !important;
-    color: black !important;
-} */
 
     
 .action3:hover {
@@ -231,6 +215,10 @@ a {
 
 
 
+
+
+
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 430px) {
     
@@ -238,6 +226,8 @@ a {
     .middle {
         width: 89vw;
     }
+
+
 
   
 }
