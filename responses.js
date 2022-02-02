@@ -1,4 +1,4 @@
-var codes = ["001","002"];
+// var codes = ["001","002"];
 
 function getBotResponse(input) {
     
