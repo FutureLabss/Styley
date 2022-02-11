@@ -216,6 +216,12 @@ a {
         /* 100% {background-position: 0 0;} */
     }
 
+    .punch {
+        font-size: 28px;
+        /* line-height: 48px; */
+        
+    }
+
     
 }
 
