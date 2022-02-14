@@ -73,9 +73,9 @@ body {
         background-size: 100% 400%;
         background-position:0 0;
      */
-        -webkit-animation: animateGradient 5s ease 1;
-        -moz-animation:    animateGradient 5s ease 1;
-        animation:         animateGradient 5s ease 1;
+        -webkit-animation: animateGradient 5s ease 2;
+        -moz-animation:    animateGradient 5s ease 2;
+        animation:         animateGradient 5s ease 2;
         -webkit-animation-delay: 5s;
         -moz-animation-delay:    5s;
         animation-delay:         5s;
@@ -190,9 +190,9 @@ a {
         background-size: 100% 400%;
         background-position:0 0; */
 
-        -webkit-animation: animateGradient 5s ease 1;
-        -moz-animation:    animateGradient 5s ease 1;
-        animation:         animateGradient 5s ease 1;
+        -webkit-animation: animateGradient 5s ease 2;
+        -moz-animation:    animateGradient 5s ease 2;
+        animation:         animateGradient 5s ease 2;
         -webkit-animation-delay: 5s;
         -moz-animation-delay:    5s;
         animation-delay:         5s;
@@ -232,11 +232,11 @@ a {
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 768px) {
     
 
     .middle {
-        width: 89vw;
+        width: 89vw !important;
     }
 
 
