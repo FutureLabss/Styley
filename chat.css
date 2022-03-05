@@ -252,15 +252,9 @@
 @media screen and (max-width:1030px) {
     
     .outer-container {
-        height: 78vh;
+        height: 78vh !important;
        
-
     }
-
-
-
-    
-
 
 }
 
