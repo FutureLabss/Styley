@@ -298,7 +298,7 @@ function autocomplete(inp, arr) {
   
   /*An array containing customer photo codes*/
   // ,"Etono","Santi","Donye","Fiji","Nuro","Paga","Botana"
-  var countries = ["Kwarra"];
+  var countries = ["Kwarra","Fiji"];
   // "Alafin","Adoka","Afun","Aguyi","Bahama","Bardos","Bero","Botana","Camodia","Caroon","Cagada","Camani","Denota","Donye","Doma","Dotaka","Edofa","Ere","Etono","Etty","Fally","Faro","Fiji","Femi","Gabo","Gago","Gumi","Guyana","Hati","Hondu","Hongo","Hafia","Idigo","Indono","Isile","Italo","Jamil","Japa","Jeto","Joly","Kazak","Keno","Kiriba","Kosovo","Lavi","Lata","Leto","Lutu","Maca","Madofi","Maawi","Montene","Nami","Nuro","Niye","Nando","Paky","Paga","Pato","Panama","Renion","Ronia","Rosy","Remi","Satty","Samiba","Sanno","Sully","Taiwo","Tajik","Tania","Tila","Ugandy","Uka","Uche","Unica","Vanatu","Vaty","Vezela",
   
   /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
