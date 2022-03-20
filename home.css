@@ -130,6 +130,8 @@ body {
 .action1 {
     color: white !important;
     background-color: rgb(41, 43, 44) !important;
+   
+   
 }
 
 .action1:hover, .action1-slide:active {
