@@ -48,7 +48,7 @@ function firstBotMessage() {
 
 // NEW code FOR DELAY: IF NOT NEEDED, TAKE IT OUT COMPLETELY & UNCOMMENT THE FIRST TWO LINES OF THE FUNCTION - firstBotMessage()
 function stuff() {
-    let firstMessage = "Hello. </br> I'm Editi, your shopping assistant. <br> Please, send a photo code."
+    let firstMessage = "Hello. </br> I'm Editi, your shopping assistant. <br> Please, send a tag name."
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     if (delay = 2000) {
