@@ -1,11 +1,11 @@
-// var codes = ["001","002"];
+// var tags = ["001","002"];
 
 function getBotResponse(input) {
     
     if (input == "Kwarra") { 
-        return "<span style='font-size:smaller'>- Made by: Dily Fashion Store -</span> <br /> Want to order this <strong>BLOUSE</strong>? <br /> <strong>Price:</strong> &#8358;9,000.0. <br /> Scroll to view all. &#8595; <br /> <br /> <strong>Front View</strong> <img data-toggle='modal' data-target='#exampleModalCenterAlafin' style='width:100%'  src='kwarrag.jpg' /> <br /> <br /> <strong>Back View</strong><img data-toggle='modal' data-target='#exampleModalCenterAlafin' style='width:100%'  src='kwarrag.jpg' /> <br /> <br /> Tab 'Kwarra' to give your measurements & order this <strong>BLOUSE</strong> from its designer. <br /> <a href='https://forms.gle/Z9fiDRvAnYSUQ2qA6'> <button class='order-button' style='border-radius:11px; border: 3px solid; padding-bottom: 7px; padding-top: 7px; padding-left: 20px; padding-right: 20px; margin-left: 5%; margin-top: 2%;'><strong>'Kwarra'</strong></button> <br /></a>";    
+        return "<span style='font-size:smaller'>- Made by: Dily Fashion Store -</span> <br /> Want to order this <strong>BLOUSE</strong>? <br /> <strong>Price:</strong> &#8358;9,000.0. <br /> Scroll to view all. &#8595; <br /> <br /> <strong>Front View</strong> <img data-toggle='modal' data-target='#exampleModalCenterAlafin' style='width:100%'  src='kwarrag.jpg' /> <br /> <br /> <strong>Back View</strong><img data-toggle='modal' data-target='#exampleModalCenterAlafin' style='width:100%'  src='kwarrag.jpg' /> <br /> <br /> Tap 'Kwarra' to give your measurements & order this <strong>BLOUSE</strong> from its designer. <br /> <a href='https://forms.gle/Z9fiDRvAnYSUQ2qA6'> <button class='order-button' style='border-radius:11px; border: 3px solid; padding-bottom: 7px; padding-top: 7px; padding-left: 20px; padding-right: 20px; margin-left: 5%; margin-top: 2%;'><strong>'Kwarra'</strong></button> <br /></a>";    
     } else if (input == "Fiji") {
-        return "<span style='font-size:smaller'>- Made by: Rey Fashion Store -</span> <br /> Want to order this <strong>JACKET</strong>? <br /> <strong>Price:</strong> &#8358;9,000.0. <br /> Scroll to view all. &#8595; <br /> <br /> <strong>Front View</strong> <img id='Fiji' onclick='myFunction()' data-toggle='modal' data-target='#exampleModalCenterPaga' style='width:100%'  src='fiji.jpg' /> <br /> <br /> <strong>Back View</strong><img data-toggle='modal' data-target='#exampleModalCenterPaga' style='width:100%'  src='fiji.jpg' /> <br /> <br /> Tab 'Fiji' to give your measurements & order this <strong>JACKET</strong> from its designer. <br /> <a href='https://forms.gle/Z9fiDRvAnYSUQ2qA6'> <button class='order-button' style='border-radius:11px; border: 3px solid; padding-bottom: 7px; padding-top: 7px; padding-left: 20px; padding-right: 20px; margin-left: 5%; margin-top: 2%;'><strong>'Fiji'</strong></button> <br /></a>";
+        return "<span style='font-size:smaller'>- Made by: Rey Fashion Store -</span> <br /> Want to order this <strong>JACKET</strong>? <br /> <strong>Price:</strong> &#8358;9,000.0. <br /> Scroll to view all. &#8595; <br /> <br /> <strong>Front View</strong> <img id='Fiji' onclick='myFunction()' data-toggle='modal' data-target='#exampleModalCenterPaga' style='width:100%'  src='fiji.jpg' /> <br /> <br /> <strong>Back View</strong><img data-toggle='modal' data-target='#exampleModalCenterPaga' style='width:100%'  src='fiji.jpg' /> <br /> <br /> Tap 'Fiji' to give your measurements & order this <strong>JACKET</strong> from its designer. <br /> <a href='https://forms.gle/Z9fiDRvAnYSUQ2qA6'> <button class='order-button' style='border-radius:11px; border: 3px solid; padding-bottom: 7px; padding-top: 7px; padding-left: 20px; padding-right: 20px; margin-left: 5%; margin-top: 2%;'><strong>'Fiji'</strong></button> <br /></a>";
 
 
     // } else if (input == "Etono") {
@@ -27,7 +27,7 @@ function getBotResponse(input) {
 
 
     } else {
-        return "&#x1F60E Oops! We couldn't match that. <br /> Please confirm code & retry.";
+        return "&#x1F60E Oops! We couldn't fetch that. <br /> Please confirm tag & retry.";
     }
 
     // if (input == "003") {
@@ -35,7 +35,7 @@ function getBotResponse(input) {
     // } else if (input == "004") {
     //     return "Talk to you later!";
     // } else {
-    //     return "&#x1F60E Oops! We couldn't match that. <br /> Confirm code & retry.";
+    //     return "&#x1F60E Oops! We couldn't match that. <br /> Confirm tag & retry.";
     // }
 
 
