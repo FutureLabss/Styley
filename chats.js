@@ -35,7 +35,7 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    // let firstMessage = "Hello. </br> I'm Editi, your shopping assistant. <br> Please, send a photo tag."
+    // let firstMessage = "Hello. </br> I'm Editi, your shopping assistant. <br> Please, send a photo code."
     // document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     let time = getTime();
@@ -46,9 +46,9 @@ function firstBotMessage() {
 }
 
 
-// NEW tag FOR DELAY: IF NOT NEEDED, TAKE IT OUT COMPLETELY & UNCOMMENT THE FIRST TWO LINES OF THE FUNCTION - firstBotMessage()
+// NEW code FOR DELAY: IF NOT NEEDED, TAKE IT OUT COMPLETELY & UNCOMMENT THE FIRST TWO LINES OF THE FUNCTION - firstBotMessage()
 function stuff() {
-    let firstMessage = "Hello. </br> I'm Editi, your shopping assistant. <br> Please, send a photo tag."
+    let firstMessage = "Hello. </br> I'm Editi, your shopping assistant. <br> Please, send a photo code."
     document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
 
     if (delay = 2000) {
@@ -77,7 +77,7 @@ function getHardResponse(userText) {
 
     document.getElementById("chat-bar-bottom").scrollIntoView(true);
     
-    // the above line of tag was formerly this line
+    // the above line of code was formerly this line
     // document.getElementById("chat-bar-bottom").scrollIntoView(true);
 }
 
@@ -243,19 +243,19 @@ function autocomplete(inp, arr) {
     inp.addEventListener("keydown", function(e) {
         var x = document.getElementById(this.id + "autocomplete-list");
         if (x) x = x.getElementsByTagName("div");
-        if (e.keytag == 40) {
+        if (e.keyCode == 40) {
           /*If the arrow DOWN key is pressed,
           increase the currentFocus variable:*/
           currentFocus++;
           /*and and make the current item more visible:*/
           addActive(x);
-        } else if (e.keytag == 38) { //up
+        } else if (e.keyCode == 38) { //up
           /*If the arrow UP key is pressed,
           decrease the currentFocus variable:*/
           currentFocus--;
           /*and and make the current item more visible:*/
           addActive(x);
-        } else if (e.keytag == 13) {
+        } else if (e.keyCode == 13) {
           /*If the ENTER key is pressed, prevent the form from being submitted,*/
         //   e.preventDefault();
           if (currentFocus > -1) {
@@ -296,7 +296,7 @@ function autocomplete(inp, arr) {
     });
   }
   
-  /*An array containing customer photo tags*/
+  /*An array containing customer photo codes*/
   // ,"Etono","Santi","Donye","Fiji","Nuro","Paga","Botana"
   var countries = ["Kwarra","Fiji"];
   // "Alafin","Adoka","Afun","Aguyi","Bahama","Bardos","Bero","Botana","Camodia","Caroon","Cagada","Camani","Denota","Donye","Doma","Dotaka","Edofa","Ere","Etono","Etty","Fally","Faro","Fiji","Femi","Gabo","Gago","Gumi","Guyana","Hati","Hondu","Hongo","Hafia","Idigo","Indono","Isile","Italo","Jamil","Japa","Jeto","Joly","Kazak","Keno","Kiriba","Kosovo","Lavi","Lata","Leto","Lutu","Maca","Madofi","Maawi","Montene","Nami","Nuro","Niye","Nando","Paky","Paga","Pato","Panama","Renion","Ronia","Rosy","Remi","Satty","Samiba","Sanno","Sully","Taiwo","Tajik","Tania","Tila","Ugandy","Uka","Uche","Unica","Vanatu","Vaty","Vezela",

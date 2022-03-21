@@ -1,4 +1,4 @@
-// var tags = ["001","002"];
+// var codes = ["001","002"];
 
 function getBotResponse(input) {
     
@@ -27,7 +27,7 @@ function getBotResponse(input) {
 
 
     } else {
-        return "&#x1F60E Oops! We couldn't fetch that. <br /> Please confirm tag & retry.";
+        return "&#x1F60E Oops! We couldn't fetch that. <br /> Please confirm code & retry.";
     }
 
     // if (input == "003") {
@@ -35,7 +35,7 @@ function getBotResponse(input) {
     // } else if (input == "004") {
     //     return "Talk to you later!";
     // } else {
-    //     return "&#x1F60E Oops! We couldn't match that. <br /> Confirm tag & retry.";
+    //     return "&#x1F60E Oops! We couldn't match that. <br /> Confirm code & retry.";
     // }
 
 
