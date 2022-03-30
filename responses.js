@@ -56,62 +56,28 @@ function getBotResponse(input) {
 
 
 
+// Copy Content
+function show() {
+    let src=document.getElementById('div1');
+    let tgt=document.getElementById('div2');
 
-function myFunction() {
-    var imagegive = getElementById('Fiji');
-    // imagegive.src = source.getAttribute('Fiji');
-    var imagegive = document.getElementById("Fiji").getAttribute('src');
- 
-    var image = new Image();
-    image.src = imagegive;
-    document.getElementById('imageaccept').appendChild(image);
+    ['standard','vip'].forEach( text=>{
+        let label=document.createElement('label');
+            label.innerText=label.for=text;
 
+        let input=document.createElement('input');
+            input.type='div';
+            input.name='ticket';
+            input.value=text;
 
+        label.appendChild( input );
 
-   
+        input.addEventListener('click',function(e){
+            tgt.innerText='ticket '+this.value
+        });
+
+        src.appendChild( label );
+    });
 }
 
-
-
-function myFunction1() {
-    var imagegive = getElementById('Fiji');
- 
-    var image = new Image();
-    image.src = imagegive;
-    document.getElementById('imageaccept').appendChild(image);
-
-
-
-    // Create an "img" node:
-    var node = document.createElement("img");
-    
-    // Create a text node:
-    var textnode = document.createTextNode("Water");
-    
-    // Append the text node to the "li" node:
-    node.appendChild(textnode);
-    
-    // Append the "li" node to the list:
-    document.getElementById("myList").appendChild(node);
-
-
-
-
-
-
-
-
-
-    // Create an "li" node:
-    var node = document.createElement("li");
-    
-    // Create a text node:
-    var textnode = document.createTextNode("Water");
-    
-    // Append the text node to the "li" node:
-    node.appendChild(textnode);
-    
-    // Append the "li" node to the list:
-    document.getElementById("myList").appendChild(node);
-}
-
+document.addEventListener( 'DOMContentLoaded', show );
