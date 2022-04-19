@@ -27,7 +27,7 @@ function getBotResponse(input) {
 
 
     } else {
-        return "&#x1F60E Oops! We couldn't fetch that. <br /> Please confirm tag name & retry.";
+        return "&#x1F60E Oops! We couldn't fetch that. <br /> Please confirm photo code & retry.";
     }
 
     // if (input == "003") {
